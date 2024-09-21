@@ -26,14 +26,12 @@ sequenceDiagram
 sequenceDiagram
     participant オブジェクトA
     participant オブジェクトB
-
 ```
 
 ```
 sequenceDiagram
     participant オブジェクトA
     participant オブジェクトB
-
 ```
 
 
@@ -42,13 +40,11 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     a ->> b:実行内容
-
 ```
 
 ```
 sequenceDiagram
     a ->> b:実行内容
-
 ```
 
 ### 矢印（点線）
@@ -56,13 +52,11 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     a -->> b:実行内容
-
 ```
 
 ```
 sequenceDiagram
     a -->> b:実行内容
-
 ```
 
 ### その他の矢印
@@ -88,14 +82,12 @@ sequenceDiagram
 sequenceDiagram
     a ->>+ b:実行内容
     b -->>- a:実行内容
-
 ```
 
 ```
 sequenceDiagram
     a ->>+ b:実行内容
     b -->>- a:実行内容
-
 ```
 
 ```mermaid
@@ -104,7 +96,6 @@ sequenceDiagram
         activate b
     b -->> a:実行内容
         deactivate b
-
 ```
 
 ```
@@ -113,7 +104,6 @@ sequenceDiagram
         activate b
     b -->> a:実行内容
         deactivate b
-
 ```
 
 ### メモ
@@ -130,7 +120,6 @@ sequenceDiagram
 
     Note left of A:Aの左に配置
     Note right of A:Aの右に配置
-
 ```
 
 ```
@@ -139,7 +128,6 @@ sequenceDiagram
 
     Note left of A:Aの左に配置
     Note right of A:Aの右に配置
-
 ```
 
 
@@ -151,7 +139,6 @@ sequenceDiagram
 
     Note over A,B:AからBへまたがるメモ
     A ->> B:work
-
 ```
 
 ```
@@ -161,7 +148,6 @@ sequenceDiagram
 
     Note over A,B:AからBへまたがるメモ
     A ->> B:work
-
 ```
 
 ### エイリアスの定義
@@ -175,7 +161,6 @@ sequenceDiagram
 
     A ->> B:request
     B -->> A:responce
-
 ```
 
 ```
@@ -186,7 +171,6 @@ sequenceDiagram
 
     A ->> B:request
     B -->> A:responce
-
 ```
 
 
